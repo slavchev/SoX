@@ -459,7 +459,7 @@ Client API:
 Unsigned 64-bit type. Typically defined as unsigned long or unsigned long long.
 */
 #if ULONG_MAX==0xffffffffffffffff
-typedef unsigned long sox_uint64_t;
+typedef unsigned long long sox_uint64_t;
 #elif defined(_MSC_VER)
 typedef unsigned __int64 sox_uint64_t;
 #else
